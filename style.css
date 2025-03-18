@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+/* Style the title */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: cursive;
+  padding-top: 1.5rem;
+}
+
+/* Center the color containers */
+.container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Style for each color box */
+.color-container {
+  background-color: blueviolet;
+  width: 200px;
+  height: 150px;
+  align-content: center;
+  margin: 10px;
+  border: solid 2px black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
